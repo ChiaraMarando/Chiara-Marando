@@ -1,0 +1,40 @@
+nav {
+  background-color: $secondary-color;
+  color: $primary-color !important;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-home {
+  text-decoration: none;
+}
+
+.navbar-home.active,
+.nav-link.active {
+  background-color: rgb(30, 40, 42);
+  font-weight: bold;
+}
+
+.navbar-home, .nav-link {
+  transition: background-color 0.3s ease;
+  padding: 1rem;
+
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.hero {
+  margin-top: 70px;
+}
+
+footer {
+  background-color: $secondary-color;
+}

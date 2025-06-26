@@ -1,0 +1,18 @@
+form {
+  margin-top: 10rem;
+}
+
+.send-btn {
+    background-color: $primary-color;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  &:hover {
+    background-color: rgb(220, 220, 220);
+  }
+  
+  a {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+}
